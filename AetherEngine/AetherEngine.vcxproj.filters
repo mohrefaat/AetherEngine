@@ -16,9 +16,6 @@
     <Filter Include="Source Files\Common">
       <UniqueIdentifier>{3044b627-a1f1-4e84-87ed-52967be07477}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Shaders">
-      <UniqueIdentifier>{5fd51e70-f724-4731-b277-a040fe5af1a3}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Common\Camera.cpp">
@@ -74,18 +71,5 @@
     <ClInclude Include="Common\UploadBuffer.h">
       <Filter>Source Files\Common</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Shaders\color_ps.cso">
-      <Filter>Shaders</Filter>
-    </None>
-    <None Include="Shaders\color_vs.cso">
-      <Filter>Shaders</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <FxCompile Include="Shaders\color.hlsl">
-      <Filter>Shaders</Filter>
-    </FxCompile>
   </ItemGroup>
 </Project>
